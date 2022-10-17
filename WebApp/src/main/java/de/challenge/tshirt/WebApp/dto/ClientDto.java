@@ -19,5 +19,16 @@ public class ClientDto {
         this.color = color;
     }
 
-
+    @Override
+    public String toString() {
+        return "ClientDto{" +
+                "clientId='" + clientId + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", myAddress='" + myAddress + '\'' +
+                ", myEmail='" + myEmail + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
